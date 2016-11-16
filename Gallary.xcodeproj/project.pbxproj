@@ -14,6 +14,7 @@
 		AABB7F2D1DCB7D7D002A81D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABB7F2B1DCB7D7D002A81D9 /* LaunchScreen.storyboard */; };
 		AABB7F381DCB7D7D002A81D9 /* GallaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB7F371DCB7D7D002A81D9 /* GallaryTests.swift */; };
 		AABB7F431DCB7D7D002A81D9 /* GallaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABB7F421DCB7D7D002A81D9 /* GallaryUITests.swift */; };
+		AAC301B11DCC5A1F002B950A /* GallaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC301B01DCC5A1F002B950A /* GallaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AABB7F3E1DCB7D7D002A81D9 /* GallaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GallaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABB7F421DCB7D7D002A81D9 /* GallaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallaryUITests.swift; sourceTree = "<group>"; };
 		AABB7F441DCB7D7D002A81D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC301B01DCC5A1F002B950A /* GallaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GallaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AABB7F291DCB7D7D002A81D9 /* Assets.xcassets */,
 				AABB7F2B1DCB7D7D002A81D9 /* LaunchScreen.storyboard */,
 				AABB7F2E1DCB7D7D002A81D9 /* Info.plist */,
+				AAC301B01DCC5A1F002B950A /* GallaryViewController.swift */,
 			);
 			path = Gallary;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				AABB7F251DCB7D7D002A81D9 /* ViewController.swift in Sources */,
 				AABB7F231DCB7D7D002A81D9 /* AppDelegate.swift in Sources */,
+				AAC301B11DCC5A1F002B950A /* GallaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +486,7 @@
 				AABB7F491DCB7D7D002A81D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AABB7F4A1DCB7D7D002A81D9 /* Build configuration list for PBXNativeTarget "GallaryTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				AABB7F4C1DCB7D7D002A81D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AABB7F4D1DCB7D7D002A81D9 /* Build configuration list for PBXNativeTarget "GallaryUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				AABB7F4F1DCB7D7D002A81D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
